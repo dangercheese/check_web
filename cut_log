@@ -13,7 +13,7 @@ import zipfile
 
 def getLogList():
         try:
-  	dom = minidom.parse('/home/guolei/cut_log/log_path.xml')
+  	dom = minidom.parse('log_path.xml')
         except BaseException, e:
                 print e
                 sys.exit()
