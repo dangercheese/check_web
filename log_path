@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logs>
+  <!-- <log>
+  <path>/var/log/cron-20130630</path>
+          Backup files
+  <save>/home/test/</save>
+         Save directory 
+  <name>cron_log</name>
+    In the name of the log cutting
+  <days>5</days>
+   Keep the number
+  </log> -->
+  <!-- Copy the log template -->
+
+
+  <log>
+  <path>/var/log/cron-20130630</path>
+  <save>/home/test/</save>
+  <name>cron_log</name>
+  <days>5</days>
+  </log> 
+</logs>
